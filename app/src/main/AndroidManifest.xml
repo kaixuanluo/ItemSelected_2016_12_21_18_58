@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.itemselected_2016_12_21_18_58">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NextActivity" android:label="第二个"/>
+        <activity android:name=".ThirdActivity" android:label="第三个"/>
+        <activity android:name=".FourActivity" android:label="第四个"/>
+        <activity android:name=".FiveActivity" android:label="第五个"/>
+        <activity android:name=".SixActivity" android:label="第6个"/>
+        <activity android:name=".ServenActivity" android:label="第七个"/>
+    </application>
+
+</manifest>
